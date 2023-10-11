@@ -1,0 +1,36 @@
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.table-wrapper {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+}
+
+.table-action {
+  margin-top: 16px;
+  width: 60px;
+}
+
+.arrow-left {
+  padding-top: 30px;
+  padding-left: 50px;
+}
+
+.arrow-right {
+  padding-top: 30px;
+  padding-right: 50px;
+}
+
+.arrow-left img {
+  transform: rotate(90deg);
+}
+
+.arrow-right img {
+  transform: rotate(-90deg);
+}
